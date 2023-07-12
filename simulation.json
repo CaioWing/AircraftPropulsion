@@ -1,0 +1,67 @@
+{
+    "start": {
+        "T_entrada": 298,
+        "P_entrada": 101000.0
+    },
+    "fan 0": {
+        "W": 23927.756,
+        "P_entrada": 101000.0,
+        "P_saida": 161600.0,
+        "T_entrada": 298,
+        "T_saida": 345.588
+    },
+    "compressor 0": {
+        "W_kg": 678132.618,
+        "W": 678132.618,
+        "P_entrada": 161600.0,
+        "P_saida": 5656000.0,
+        "T_entrada": 345.588,
+        "T_saida": 1018.515
+    },
+    "combustion chamber 0": {
+        "m_dot_fuel": 0.021,
+        "P_entrada": 5656000.0,
+        "P_saida": 5373200.0,
+        "T_entrada": 1018.515,
+        "T_saida": 1700
+    },
+    "afterburner 0": {
+        "P_entrada": 5373200.0,
+        "P_saida": 6447840.0,
+        "T_entrada": 1700,
+        "T_saida": 2125.408
+    },
+    "turbina 0": {
+        "W_kg": -808945.061,
+        "W": -808945.061,
+        "v_jet": 1344.692,
+        "eta_prop": 0.301,
+        "P_entrada": 6447840.0,
+        "P_saida": 1010958.385,
+        "T_entrada": 2125.408,
+        "T_saida": 1417.049
+    },
+    "mixer 1": {
+        "m_dot_air": 0.25,
+        "P_entrada": 1010958.385,
+        "P_saida": 3032875.156,
+        "T_entrada": 1417.049,
+        "T_saida": 936.259
+    },
+    "nozzle 0": {
+        "v_jet": 582.577,
+        "P_entrada": 3032875.156,
+        "P_saida": 1587775.307,
+        "T_entrada": 936.259,
+        "T_saida": 799.845
+    },
+    "aircraft results": {
+        "prop. efficiency": 0.613,
+        "therm. efficiency": 0.138,
+        "total efficiency": 0.085,
+        "power": 76449.329,
+        "net thrust": 309.164,
+        "gross thrust": 547.564,
+        "Area exit": 0.001
+    }
+}
