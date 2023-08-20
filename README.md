@@ -5,6 +5,6 @@ This code aims to modulate a propulsion system. The 'main.py' file provides an e
 
 Step 1: clone this repository with 'git clone https://github.com/CaioWing/AircraftPropulsion'
 
-Step 2: install the requirements.txt with 'pip install requirements.txt'
+Step 2: install the requirements.txt with 'pip install -r requirements.txt'
 
 Step 3: edit 'main.py' and run the function
